@@ -9,6 +9,7 @@
 body {
     font-family: "Roboto", sans-serif;
     line-height: 1.2;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -21,5 +22,42 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.main {
+    flex: 1;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 60px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header .container .nav {
+    display: flex;
+    gap: 18px;
+}
+
+.nav li a {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
