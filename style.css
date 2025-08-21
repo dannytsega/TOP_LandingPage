@@ -237,3 +237,13 @@ ul {
     border-radius: 8px;
     font-weight: 900;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: #F9FAF8;
+    font-size: 18px;
+}
