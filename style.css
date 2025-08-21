@@ -26,6 +26,8 @@ ul {
 
 .main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -117,3 +119,41 @@ ul {
     align-items: center;
 }
 
+.random-info {
+    padding: 32px 0;
+    height: 400px;
+    text-align: center;
+}
+
+.random-info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 48px;
+}
+
+.random-info .rand-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin: 0 auto;
+}
+
+.random-info .rand-cont .random-info-1 .box {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+    border: 4px solid #3882F6;
+}
+
+.random-info .rand-cont .random-info-1 {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: gray;
+}
